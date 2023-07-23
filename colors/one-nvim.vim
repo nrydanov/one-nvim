@@ -174,7 +174,10 @@ local highlight_groups = {
      TooLong      = { fg = hue_5 },
      WildMenu     = { fg = mono_1, bg = mono_3 },
      SignColumn   = { fg = none, bg = syntax_bg },
-     Special      = { fg = hue_2 },
+
+    NvimTreeRootFolder = {fg = hue_6},
+    NvimTreeImageFile = {fg = hue_6},
+    NvimTreeSpecialFile = {fg = hue_6},
 
 ---------------------------
 -- Vim Help Highlighting --
@@ -689,10 +692,6 @@ LspReferenceWrite                    = { fg = hue_6_2, style = 'reverse' },
      TSVariableBuiltin    = 'Special',
 
 }
-
-NvimTreeRootFolder = {fg = hue_6}
-NvimTreeImageFile = {fg = hue_6}
-NvimTreeSpecialFile = {fg = hue_6}
 
 local terminal_ansi_colors = {
     [0]  = term_black,
