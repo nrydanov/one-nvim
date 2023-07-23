@@ -690,6 +690,10 @@ LspReferenceWrite                    = { fg = hue_6_2, style = 'reverse' },
 
 }
 
+NvimTreeRootFolder = {fg = hue_6}
+NvimTreeImageFile = {fg = hue_6}
+NvimTreeSpecialFile = {fg = hue_6}
+
 local terminal_ansi_colors = {
     [0]  = term_black,
     [1]  = hue_5,
@@ -708,7 +712,6 @@ local terminal_ansi_colors = {
     [14] = term_cyan,
     [15] = term_white
 }
-
 
 require(vim.g.colors_name)(highlight_group_normal, highlight_groups, terminal_ansi_colors)
 
