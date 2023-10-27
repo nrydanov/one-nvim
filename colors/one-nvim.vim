@@ -504,7 +504,7 @@ local highlight_groups = {
      purescriptOperator    = { fg = mono_1 },
 
 -- Python
-     pythonAttribute       = { fg = hue_3 }
+     pythonAttribute       = { fg = hue_3 },
      pythonImport          = { fg = hue_3 },
      pythonBuiltin         = { fg = hue_1 },
      pythonStatement       = { fg = hue_3 },
