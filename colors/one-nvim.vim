@@ -14,7 +14,7 @@ if vim.o.background == "dark" then
      mono_1        = {"#abb2bf", 145, "mono_1"}  -- hsl(@syntax-hue, 14%, 71%);
      mono_2        = {"#828997", 102, "mono_2"}  -- hsl(@syntax-hue,  9%, 55%);
      mono_3        = {"#5c6370",  59, "mono_3"}  -- hsl(@syntax-hue, 10%, 40%);
-     mono_4        = {"#61afef", 240, "mono_4"}  --
+     mono_4        = {"#4b5263", 240, "mono_4"}  --
      hue_1         = {"#56b6c2", 247, "hue_1"}   -- hsl(187, 47%, 55%);
      hue_2         = {"#61afef",  75, "hue_2"}   -- hsl(207, 82%, 66%);
      hue_3         = {"#c678dd", 176, "hue_3"}   -- hsl(286, 60%, 67%);
@@ -717,8 +717,5 @@ require(vim.g.colors_name)(highlight_group_normal, highlight_groups, terminal_an
 
 -- Thanks to Iron-E (https://github.com/Iron-E) for the template (Iron-E/nvim-highlite).
 -- vim: ft=lua
---
-
-lualine
 
 EOF
