@@ -228,6 +228,8 @@ local highlight_groups = {
      Ignore         = { fg = none},
      Error          = { fg = hue_5, bg = mono_3,   style = 'bold'},
      Todo           = { fg = hue_3, bg = mono_3 },
+     NvimLightGray2 = { fg = hue_3}
+
 
 -----------------------
 -- Diff Highlighting --
