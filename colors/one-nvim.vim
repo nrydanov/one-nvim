@@ -591,7 +591,6 @@ local highlight_groups = {
      rustCommentBlock         = { fg = mono_3 },
      rustCommentBlockDoc      = { fg = mono_3 },
      rustCommentBlockDocError = { fg = mono_3 },
-    rustFoldBraces            = { fg = hue_2},
 
 -- Man
      manTitle  = 'String',
