@@ -53,6 +53,7 @@ else
      mono_2        = {"#696c77",  60, "mono_2"}        -- hsl(@syntax-hue, 6%, 44%);
      mono_3        = {"#a0a1a7", 247, "mono_3"}        -- hsl(@syntax-hue, 4%, 64%);
      mono_4        = {"#c2c2c3", 251, "mono_4"}        --
+     variable      = mono_3
      hue_1         = {"#0184bc",  31, "hue_1"}         -- hsl(198, 99%, 37%);
      hue_2         = {"#4078f2",  69, "hue_2"}         -- hsl(221, 87%, 60%);
      hue_3         = {"#a626a4", 243, "hue_3"}         -- hsl(301, 63%, 40%);
