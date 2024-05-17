@@ -11,7 +11,7 @@ local _TYPE_TABLE  = 'table'
 
 -- Determine which set of colors to use.
 local _USE_HEX = go.termguicolors
-local _USE_256 = true
+local _USE_256 = false
 
 --[[ HELPER FUNCTIONS ]]
 
